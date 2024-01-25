@@ -17,6 +17,7 @@
 }
 
 nav {
+    background-color: #3f3f3f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,13 +27,15 @@ nav {
 }
 
 .portf {
+    background-color: #3f3f3f;
     color: white;
     font-size: 40px;
     font-weight: 500;
 }
 
 li {
-    color: aliceblue;
+    background-color: #3f3f3f;
+    color: white;
     list-style: none;
     display: inline-block;
     font-size: 25px;
@@ -40,17 +43,19 @@ li {
     cursor: pointer;
 }
 
-li:hover {
-    color: #3b0780;
+ul li a:hover {
+    color: #672bb4;
     transition: 0.5s;
 }
 
 .link-menu {
+    background-color: #3f3f3f;
     text-decoration: none;
-    color: aliceblue;
+    color: white;
 }
 
 ul {
+    background-color: #3f3f3f;
     display: inline-block;
 }
 
@@ -58,7 +63,7 @@ ul {
     position: absolute;
     top: 50%;
     left: 10%;
-    color: aliceblue;
+    color: white;
 
 }
 
@@ -129,11 +134,13 @@ section div button:hover {
 
 .card {
     background-color: #191919;
+    color: white;
     height: 300px;
     width: 300px;
     border-radius: 20px;
-    padding: 20px 35px;
+    padding: -1px;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -146,15 +153,16 @@ section div button:hover {
 }
 
 .card p {
-    color: aliceblue;
+    color: white;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .card a {
-    background-color: blue;
-    color: aliceblue;
-    padding: 10px 20px;
+    background-color: #3b0780;
+    color: white;
+    padding: 15px 20px;
+    border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
@@ -172,9 +180,14 @@ section div button:hover {
     margin-top: 100px;
 }
 
-footer {
-    padding-top: 100px;
-    padding-bottom: 120px;
+/* footer {
+    position: fixed;
+} */
+
+#fale-comigo {
+    background-color: #333;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,11 +195,13 @@ footer {
 }
 
 footer h5 {
+    background-color: #333;
     color: aliceblue;
     font-size: 20px;
 }
 
 footer p {
+    background-color: #333;
     color: aliceblue;
     font-size: 16px;
     margin-top: 14px;
@@ -194,16 +209,18 @@ footer p {
 }
 
 .social {
+    background-color: #333;
     display: flex;
     gap: 20px;
 }
 
 .social img {
+    background-color: #3b0780;
     height: 25px;
 }
 
 .social a {
-    background-color: blue;
+    background-color: #3b0780;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -214,6 +231,6 @@ footer p {
 }
 
 .social a:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: 0.5s;
 }
